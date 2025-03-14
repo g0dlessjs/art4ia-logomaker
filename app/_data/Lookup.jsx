@@ -8,4 +8,7 @@ export default {
   LogoTitle: "Logo Title",
   LogoTitleDesc:
     "Enter your business, app, or website name to create a personalized logo.",
+  LogoDescTitle: "Describe Your logo vision",
+  LogoDescDesc:
+    "Share your idea, themes, or inpritaions to create a logo that perfectly represents you brand or project",
 };
