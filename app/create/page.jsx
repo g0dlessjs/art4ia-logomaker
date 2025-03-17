@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LogoTitle from "./_components/LogoTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -21,6 +21,10 @@ function CreateLogo() {
 
     console.log(formData);
   };
+
+  useEffect(() => {
+    console.log(formData);
+  }, [formData]); // Esto se ejecuta cada vez que formData cambia
 
   return (
     <div className="mt-28 p-10 border rounded-xl 2xl:mx-72">
