@@ -3,6 +3,7 @@ export default {
   HeroSubheading: "Perfect Logos for Apps, Businesses, and Websites",
   HeroDesc:
     "Craft unique and professional logos effortlessly with our AI-powered tool. Perfect for apps, businesses, websites, and more!",
+  GetStarted: "Get Started",
   InputTitlePlaceholder: "Enter your Logo Name",
   LogoTitle: "Logo Title",
   LogoTitleDesc: "Add Your Business, App, or Website Name for a Custom Logo",

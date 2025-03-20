@@ -13,18 +13,18 @@ function LogoPalette({ onHandleInputChange }) {
         description={Lookup.LogoDescDesc}
       />
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5 ">
         {Colors.map((palette, index) => (
           <div
-            className={`flex p-1 ${
+            className={`flex p-1 hover:border-2 border-primary rounded-xl cursor-pointer ${
               setselectedOption === palette.name &&
-              "border rounded-lg border-primary cursor-pointer"
+              "border rounded-lg border-primary cursor-pointer "
             }`}
             key={index}
           >
             {palette?.colors.map((color, index) => (
               <div
-                className="h-24 w-full"
+                className="h-24 w-full "
                 key={index}
                 onClick={() => {
                   setSetselectedOption(palette.name);
