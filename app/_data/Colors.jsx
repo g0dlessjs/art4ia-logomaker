@@ -1,7 +1,7 @@
 export default [
   {
-    name: "Let us select",
-    colors: ["#ff5733", "#33ff57", "#3357ff", "ff33a8", "#f4ff33"],
+    name: "Let Us Select",
+    colors: ["#ff5733", "#33ff57", "#3357ff", "#ff33a8", "#f4ff33"],
   },
   {
     name: "Ocean Blues",
@@ -13,11 +13,11 @@ export default [
   },
   {
     name: "Forest Greens",
-    colors: ["#2a6f4", "#3e8e68", "#56a581", "#70bd9b", "#8fd6b5"],
+    colors: ["#2a6f4e", "#3e8e68", "#56a581", "#70bd9b", "#8fd6b5"],
   },
   {
     name: "Earthy Browns",
-    colors: ["#5f4037", "#795548", "#8d6e63", "#a1887f", "#d7ccc8"],
+    colors: ["#5d4037", "#795548", "#8d6e63", "#a1887f", "#d7ccc8"],
   },
   {
     name: "Soft Purples",
